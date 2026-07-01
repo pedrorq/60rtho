@@ -52413,4 +52413,2654 @@
 		)
 	)
 	(embedded_fonts no)
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 50.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ada9d18e-da59-4e1d-9a20-ef2b1339cbcd")
+		(property "Reference" "U66"
+			(at 50.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 50.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 50.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bksp_1u"
+			(at 50.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7726a3ac-d6bb-4ce3-a69a-4c0e3916cc07")
+		)
+		(pin "2"
+			(uuid "c7d60bbc-3406-494d-969d-4e897f931b14")
+		)
+		(pin "3"
+			(uuid "fc7a7e0c-f160-4d31-a866-7af51b5cef15")
+		)
+		(pin "5"
+			(uuid "0e35c7a5-1138-405f-90bf-0f04a3c439ac")
+		)
+		(pin "4"
+			(uuid "ba074837-cc78-4a90-aa1b-ea77e5f7b210")
+		)
+		(pin "6"
+			(uuid "4166f81c-5e39-4bc6-bd80-eba60c341598")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 36.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93aca107-13d8-4721-a5e6-07b736d583db")
+		(property "Reference" "D64"
+			(at 36.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 36.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 36.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60a8a5fd-44fd-41fc-ba64-2c30d3ceaf6f")
+		)
+		(pin "2"
+			(uuid "f077054e-ac3d-44b8-963d-94d07f5d804a")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 39.84 137.46) (xy 39.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a493c27c-1d4b-4948-ba21-1eee83cecbcb")
+	)
+	(wire
+		(pts
+			(xy 39.84 142.54) (xy 42.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f91333-ac7c-405d-bafa-41924d7d5402")
+	)
+	(wire
+		(pts
+			(xy 32.22 137.46) (xy 28.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbb4a38-8385-4d12-b1a1-3fdf8e959b86")
+	)
+	(wire
+		(pts
+			(xy 28.41 137.46) (xy 28.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d5b647-0ba3-43f6-8810-037c7bd3137b")
+	)
+	(wire
+		(pts
+			(xy 57.62 142.54) (xy 60.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e03ab83-6eb3-4a80-bf26-c01e0ddf009d")
+	)
+
+	(global_label "ROW1"
+		(shape input)
+		(at 28.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "97b404fe-83c0-49e3-993c-f553e1e02071")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL14"
+		(shape input)
+		(at 60.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3f0ae629-813a-49a5-8cfb-3486c9ba983c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 90.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fcecfc2-817f-4ce3-a25f-b91326f9ccdb")
+		(property "Reference" "U67"
+			(at 90.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 90.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.50u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 90.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bslash_1.5u"
+			(at 90.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8cf396-f860-44c2-bf5c-bde8b7b64940")
+		)
+		(pin "2"
+			(uuid "0ce8f548-6bb1-4b22-bc06-f99d9eb2b132")
+		)
+		(pin "3"
+			(uuid "fe7caba9-7cb6-4138-a475-d0a175f91990")
+		)
+		(pin "5"
+			(uuid "bfa4a853-9cb7-476f-af3c-417558811efd")
+		)
+		(pin "4"
+			(uuid "d53098bd-f132-4417-a392-2e35229d2ae4")
+		)
+		(pin "6"
+			(uuid "5b8960d7-3c9c-45e4-b1a7-d59496e59175")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 76.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7277bb1e-2bf0-4cf7-8dcb-384ad8ed3066")
+		(property "Reference" "D65"
+			(at 76.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 76.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 76.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6672307c-c256-4640-a250-0baef1228a7a")
+		)
+		(pin "2"
+			(uuid "0c205ade-e209-46ca-afb7-273f392e1ba9")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 79.84 137.46) (xy 79.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd91405-325b-4873-9eba-ab70002886ea")
+	)
+	(wire
+		(pts
+			(xy 79.84 142.54) (xy 82.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5232b5e-a55e-4655-8bb2-bc0e7b679f90")
+	)
+	(wire
+		(pts
+			(xy 72.22 137.46) (xy 68.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99592872-f79c-44e3-a3a0-6709810d9c63")
+	)
+	(wire
+		(pts
+			(xy 68.41 137.46) (xy 68.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274f44af-d7bf-4051-93cf-aa9f1a2b414b")
+	)
+	(wire
+		(pts
+			(xy 97.62 142.54) (xy 100.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0a9edd-4fcb-420c-b289-e0aabef76c60")
+	)
+
+	(global_label "ROW2"
+		(shape input)
+		(at 68.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "ff730578-0e66-4b9e-881c-e3f9992f84ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL13"
+		(shape input)
+		(at 100.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "8aa879ae-a183-40b1-8c96-2790baf8626b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 130.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae7ee92f-59fd-4ef2-aabe-fed846e3d787")
+		(property "Reference" "U68"
+			(at 130.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 130.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 130.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Up"
+			(at 130.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab31f0f3-6479-47ec-a047-761c6bf34b53")
+		)
+		(pin "2"
+			(uuid "a766945f-6ce0-489b-b006-23e15c22e82d")
+		)
+		(pin "3"
+			(uuid "6916b455-986e-4ddb-8183-6757982a34ec")
+		)
+		(pin "5"
+			(uuid "72bab764-b8af-4e51-98cb-a7753c330f29")
+		)
+		(pin "4"
+			(uuid "8faefa94-8d72-48ad-8416-024a39b8af07")
+		)
+		(pin "6"
+			(uuid "36fc8467-60e0-41f3-abd6-8b00329b3e7d")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 116.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6256a54-7d04-47db-99d1-9d857f621dcc")
+		(property "Reference" "D66"
+			(at 116.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 116.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6625727d-6442-470e-a07c-a77da7ea825d")
+		)
+		(pin "2"
+			(uuid "94131334-015b-4b46-a053-7f82ca8c9b3f")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 119.84 137.46) (xy 119.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be9ebe-9073-431b-be03-dfccf828bff4")
+	)
+	(wire
+		(pts
+			(xy 119.84 142.54) (xy 122.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82f32f9-fe26-4660-bd8e-78c5e3593d0e")
+	)
+	(wire
+		(pts
+			(xy 112.22 137.46) (xy 108.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfad6739-b60e-4555-9500-fa00cea5604b")
+	)
+	(wire
+		(pts
+			(xy 108.41 137.46) (xy 108.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6ace8c-64c5-4adb-bb6e-761440392bd7")
+	)
+	(wire
+		(pts
+			(xy 137.62 142.54) (xy 140.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff7cb3b-1cc6-4fd3-94e8-a163e188048f")
+	)
+
+	(global_label "ROW4"
+		(shape input)
+		(at 108.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7b36817d-7827-4e36-8037-e9fe9e3739ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL13"
+		(shape input)
+		(at 140.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "084d64aa-1c91-4527-b8c2-fd52a4c3f8f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 170.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97f89bb5-1bcc-4d7f-861e-168757fc122c")
+		(property "Reference" "U69"
+			(at 170.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 170.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS"
+			(at 170.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RShift_2.25u"
+			(at 170.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c796130-ed94-4a79-a12b-56e42020bd7d")
+		)
+		(pin "2"
+			(uuid "1edb8fcd-359d-45ca-8c00-b6927005949c")
+		)
+		(pin "3"
+			(uuid "defc9d3c-61d7-4cac-999c-7509488f3a20")
+		)
+		(pin "5"
+			(uuid "dfc6990c-1dda-4121-a512-eb5051227be4")
+		)
+		(pin "4"
+			(uuid "301b3a8f-bcfe-4736-814b-7a2622ad7cf1")
+		)
+		(pin "6"
+			(uuid "5988fb6b-4404-4c03-bc7a-e59c6b4b79ad")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 156.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61213deb-08c5-45fb-bfd8-9755ebfffbc7")
+		(property "Reference" "D67"
+			(at 156.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 156.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 156.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b57d83a-71b0-465c-b0ea-12c32e1514e1")
+		)
+		(pin "2"
+			(uuid "4bdd0618-304f-451d-a9af-041bc6f9e02c")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 159.84 137.46) (xy 159.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb990c5-291f-435b-8289-cffecc4183f3")
+	)
+	(wire
+		(pts
+			(xy 159.84 142.54) (xy 162.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3ff35a-7716-496e-8210-34a39929adaf")
+	)
+	(wire
+		(pts
+			(xy 152.22 137.46) (xy 148.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae65655a-1f39-48b5-9838-d9696dd688ae")
+	)
+	(wire
+		(pts
+			(xy 148.41 137.46) (xy 148.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92b464b-86e3-4f1e-a374-1cb9c1ba1003")
+	)
+	(wire
+		(pts
+			(xy 177.62 142.54) (xy 180.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d3128d-557b-486f-8a0b-95368aafefaf")
+	)
+
+	(global_label "ROW4"
+		(shape input)
+		(at 148.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "9a3f0f98-a1e8-4bda-ab12-74474f063642")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL14"
+		(shape input)
+		(at 180.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "4daa4c40-42e1-46ac-a3fa-4a5b154c2121")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 210.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e588ecb-be9c-498a-9962-c18a0c1c040c")
+		(property "Reference" "U70"
+			(at 210.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 210.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS"
+			(at 210.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SpaceL_2.25u"
+			(at 210.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9251c5e5-da65-4c8d-b2d7-17def50bee7d")
+		)
+		(pin "2"
+			(uuid "b8ae6400-443e-4c1b-a345-f0942169fd6a")
+		)
+		(pin "3"
+			(uuid "243aace5-924f-4dd8-ab24-40c75a78ccb8")
+		)
+		(pin "5"
+			(uuid "fb562985-0820-4c35-a192-f0de46dd21d4")
+		)
+		(pin "4"
+			(uuid "a76fa77a-8340-42eb-a23e-ae761398b038")
+		)
+		(pin "6"
+			(uuid "709d17ba-d97e-44a9-b8b7-73520da930c4")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 196.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "804dd7ac-656b-4adf-95a9-99abdbdaf2bb")
+		(property "Reference" "D68"
+			(at 196.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 196.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 196.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcc1ccef-dd89-4ba9-ae4d-31e7587ba2f7")
+		)
+		(pin "2"
+			(uuid "fa802e60-1ff8-40e4-915c-12147925d386")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 199.84 137.46) (xy 199.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bf416a-5948-40b7-b640-d9a197070ebd")
+	)
+	(wire
+		(pts
+			(xy 199.84 142.54) (xy 202.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5b71a9-38b7-44b2-95d5-0a56e7ac3cf3")
+	)
+	(wire
+		(pts
+			(xy 192.22 137.46) (xy 188.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03cbf13-0acc-4be2-aca0-b4a03d918dae")
+	)
+	(wire
+		(pts
+			(xy 188.41 137.46) (xy 188.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40369c5c-8114-4e7c-97f9-159c826f83b6")
+	)
+	(wire
+		(pts
+			(xy 217.62 142.54) (xy 220.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d98f95e-4475-407a-a862-2723ae8e4642")
+	)
+
+	(global_label "ROW5"
+		(shape input)
+		(at 188.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "e9eb45bd-a10a-4063-b462-c111e9e55cdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL4"
+		(shape input)
+		(at 220.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d7fe190b-ddf5-4b6f-b84f-d80a6912d57c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 250.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "359f3ac9-dccc-4c79-a120-9f7181193968")
+		(property "Reference" "U71"
+			(at 250.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 250.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 250.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SpaceM_1.25u"
+			(at 250.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d25eeea-8649-46e1-9a9d-017c5094b940")
+		)
+		(pin "2"
+			(uuid "ba18bd1f-ef28-483a-9f82-f98ab8b41ddc")
+		)
+		(pin "3"
+			(uuid "584d4bd6-c500-4358-9edf-9193b3a8fc09")
+		)
+		(pin "5"
+			(uuid "4a4bc6c1-df71-401a-a7b4-385482113c29")
+		)
+		(pin "4"
+			(uuid "815c5537-e2f6-4494-bb0f-18c97d788cff")
+		)
+		(pin "6"
+			(uuid "8bc91cc6-6e2d-44cc-ac86-22726338401b")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 236.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "304340c4-b388-4467-b38e-bb27bd768bc4")
+		(property "Reference" "D69"
+			(at 236.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 236.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 236.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0afae032-9294-4efd-b3e6-20958004c449")
+		)
+		(pin "2"
+			(uuid "bb2434b7-e425-4ca7-acf3-2f402a59597e")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 239.84 137.46) (xy 239.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8b14ba-2b30-447d-afba-5ef3abe6a6b9")
+	)
+	(wire
+		(pts
+			(xy 239.84 142.54) (xy 242.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d348cb-d408-4173-8252-c514cb275334")
+	)
+	(wire
+		(pts
+			(xy 232.22 137.46) (xy 228.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628e8ee4-ff7d-46f7-a14c-5382010eb726")
+	)
+	(wire
+		(pts
+			(xy 228.41 137.46) (xy 228.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f577e5e-8381-4304-9d7a-832514ad30b0")
+	)
+	(wire
+		(pts
+			(xy 257.62 142.54) (xy 260.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b63fe15-c3b3-4b22-9a75-16ee9eff71f8")
+	)
+
+	(global_label "ROW5"
+		(shape input)
+		(at 228.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "cafe619b-1630-4ff3-b0c3-c37e3a2856eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL5"
+		(shape input)
+		(at 260.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "9eebb569-74e0-476e-ad2f-040bbc4237d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 290.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f4b110b-ead0-4d11-9add-ca1acb05c85c")
+		(property "Reference" "U72"
+			(at 290.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 290.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS:CherryMX_2.75u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS"
+			(at 290.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SpaceR_2.75u"
+			(at 290.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c966b10-f20c-4c73-aa3f-71af863d179c")
+		)
+		(pin "2"
+			(uuid "0f2554cc-9702-4089-be26-1de4c03332f4")
+		)
+		(pin "3"
+			(uuid "f6652ecf-8c9a-4057-a936-dc9b9a98340b")
+		)
+		(pin "5"
+			(uuid "928fa394-4bb7-4055-ace8-fc9a6f230e6b")
+		)
+		(pin "4"
+			(uuid "c7d5bd5c-6fe7-4660-9670-9d62d8314ea0")
+		)
+		(pin "6"
+			(uuid "5202f443-cf0d-48a4-a953-0a5100c13083")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 276.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2a84954-5caf-4fd6-9d29-4f9c8c001118")
+		(property "Reference" "D70"
+			(at 276.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 276.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 276.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 276.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfde9352-ef12-4465-926f-55a14beb36f1")
+		)
+		(pin "2"
+			(uuid "e3a25815-3cb7-4aa5-b862-7dd4997ecf74")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 279.84 137.46) (xy 279.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4995b952-087e-4c39-92b5-9b0c39977247")
+	)
+	(wire
+		(pts
+			(xy 279.84 142.54) (xy 282.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cce137-f6e9-4e46-819b-d7dbf314c36a")
+	)
+	(wire
+		(pts
+			(xy 272.22 137.46) (xy 268.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dc6bc7-f8bc-4265-8fea-7aa691923136")
+	)
+	(wire
+		(pts
+			(xy 268.41 137.46) (xy 268.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b322ce8-ef20-49bc-a8f4-f41fe8f819c8")
+	)
+	(wire
+		(pts
+			(xy 297.62 142.54) (xy 300.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dbcd3e-eac7-4ca9-a819-02fdfc7c3310")
+	)
+
+	(global_label "ROW5"
+		(shape input)
+		(at 268.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "707171ca-8e8d-4918-80cb-348413855bf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL7"
+		(shape input)
+		(at 300.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d3d862be-d07c-4a6a-a9cc-2156cf46db1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 330.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee12b6cc-c918-4152-87b9-f9d3ead18310")
+		(property "Reference" "U73"
+			(at 330.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 330.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 330.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Left"
+			(at 330.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4555966-4da5-4ec2-b13b-b2cb25771f7f")
+		)
+		(pin "2"
+			(uuid "a9d85217-4eb3-41b1-84d6-4fa821bfcdd6")
+		)
+		(pin "3"
+			(uuid "4ffafb20-8622-47a9-97ba-011a4805587a")
+		)
+		(pin "5"
+			(uuid "55078980-0dfc-4bb5-8b88-5a91edabf733")
+		)
+		(pin "4"
+			(uuid "a96a467c-b5c1-4f77-a1a5-dd6137336b96")
+		)
+		(pin "6"
+			(uuid "bc6c6d43-09b0-4456-9856-ff000e8e06ba")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 316.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "175e20de-69f5-4e36-b45f-ccb64c339acf")
+		(property "Reference" "D71"
+			(at 316.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 316.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 316.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 316.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c09fb416-fb3d-4d81-aec8-d43b5ad1d0fc")
+		)
+		(pin "2"
+			(uuid "6c8bcaa9-2d79-40dd-830a-26cc7ae4809e")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 319.84 137.46) (xy 319.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a415abc-67b3-40ef-a3fe-abc2f9de62a9")
+	)
+	(wire
+		(pts
+			(xy 319.84 142.54) (xy 322.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47308202-405c-4842-9480-ece09a327eb9")
+	)
+	(wire
+		(pts
+			(xy 312.22 137.46) (xy 308.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e662e4c-264a-4e24-924d-fe6d00e5d563")
+	)
+	(wire
+		(pts
+			(xy 308.41 137.46) (xy 308.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da961a3-3b3f-4550-8c54-c1798fbfabc9")
+	)
+	(wire
+		(pts
+			(xy 337.62 142.54) (xy 340.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cabcd80-821b-4257-9e92-daf6b436db41")
+	)
+
+	(global_label "ROW5"
+		(shape input)
+		(at 308.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "2e6fd3eb-a3aa-4e43-af3d-49a026f51793")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL8"
+		(shape input)
+		(at 340.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f8626a48-91b9-4aeb-846e-41d3bb306208")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 370.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c51f5a9-4935-43ef-98c3-59608fb411b2")
+		(property "Reference" "U74"
+			(at 370.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 370.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 370.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Down"
+			(at 370.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9960e28d-fb89-4b28-bb12-d943910e7a0a")
+		)
+		(pin "2"
+			(uuid "f70652ce-2a09-4f72-823d-8838efdc96fb")
+		)
+		(pin "3"
+			(uuid "037b13a5-4974-41da-84bc-efbd47f3d8f8")
+		)
+		(pin "5"
+			(uuid "1f2bc3fa-ee3a-4ca4-a954-cc0bff4661a1")
+		)
+		(pin "4"
+			(uuid "55497f61-c3ba-4e6a-93c6-d8066ed4c8e0")
+		)
+		(pin "6"
+			(uuid "9a354bed-ae75-4bcd-b2b8-11575cf9c322")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 356.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b2786c7-af94-44ff-beab-4aa041026e28")
+		(property "Reference" "D72"
+			(at 356.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 356.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 356.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 356.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3ed1a89-a889-4701-8692-956d567af16c")
+		)
+		(pin "2"
+			(uuid "12851838-648a-45df-9df7-d455acd924e0")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 359.84 137.46) (xy 359.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75819cb6-ce23-4b80-b07c-ac6155294cf3")
+	)
+	(wire
+		(pts
+			(xy 359.84 142.54) (xy 362.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989435f5-15f8-4344-a253-1d445b861cee")
+	)
+	(wire
+		(pts
+			(xy 352.22 137.46) (xy 348.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9d249a-40de-4fb8-8a0f-aa2b858de882")
+	)
+	(wire
+		(pts
+			(xy 348.41 137.46) (xy 348.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea15c8f1-ec1e-4fff-a1bf-38c3b8af9983")
+	)
+	(wire
+		(pts
+			(xy 377.62 142.54) (xy 380.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af611faf-24eb-4d43-95ce-a61e8f75ef61")
+	)
+
+	(global_label "ROW5"
+		(shape input)
+		(at 348.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8ad5c972-6a66-4a93-9238-27301536f90b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL9"
+		(shape input)
+		(at 380.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "4526f0c1-e57a-4ad3-a7e5-62eb0b2201e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 380.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
+		(at 410.00 140.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7404aff2-e727-437f-b901-36de04d097ec")
+		(property "Reference" "U75"
+			(at 410.00 130.221 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CherryMX_LTST-A683CEGBW"
+			(at 410.00 132.5324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS"
+			(at 410.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 410.00 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Right"
+			(at 410.00 140.00 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86999917-a536-46eb-a7e6-b3b1c1798729")
+		)
+		(pin "2"
+			(uuid "42e95824-def3-40a5-9a7d-d2b190a6b2c5")
+		)
+		(pin "3"
+			(uuid "741d37b3-23ae-4259-9324-9fcec989043b")
+		)
+		(pin "5"
+			(uuid "f4726efa-f2e4-46ec-a7f0-b2fd05d0c395")
+		)
+		(pin "4"
+			(uuid "721b10e9-cb11-4730-83a1-19e21c123706")
+		)
+		(pin "6"
+			(uuid "9918a8f6-74c7-43bd-83c9-9fee44906c76")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "U75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 396.03 137.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66a7ec26-24d2-49d9-a8df-4264b8ab0e4d")
+		(property "Reference" "D73"
+			(at 396.03 131.9482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 396.03 134.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 396.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 396.03 137.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 396.03 137.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "568f21b0-6549-4527-828b-410dd75eb253")
+		)
+		(pin "2"
+			(uuid "cd1170c3-30b2-4380-bb1a-321fe49445b7")
+		)
+		(instances
+			(project "60rtho"
+				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 399.84 137.46) (xy 399.84 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b8a610-4e66-4b14-99a7-5aa87ee96c41")
+	)
+	(wire
+		(pts
+			(xy 399.84 142.54) (xy 402.38 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c5668d-36b5-4b1e-84b7-a2d4cc15ddf4")
+	)
+	(wire
+		(pts
+			(xy 392.22 137.46) (xy 388.41 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f35f8f-b160-4080-be35-10e1c82b23d5")
+	)
+	(wire
+		(pts
+			(xy 388.41 137.46) (xy 388.41 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccab6b9-0a02-47c7-a486-f09f67a62ca1")
+	)
+	(wire
+		(pts
+			(xy 417.62 142.54) (xy 420.16 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368ae4c3-24b3-4807-90f8-de0ea04a8826")
+	)
+
+	(global_label "ROW5"
+		(shape input)
+		(at 388.41 145.08 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "0ba91b55-24d0-41e4-994d-3a3955b754ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.41 145.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
+	(global_label "COL13"
+		(shape input)
+		(at 420.16 142.54 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "638c265f-fcac-4721-a5db-53f32e452e82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 420.16 142.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+
 )
