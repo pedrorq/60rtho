@@ -1330,14 +1330,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beskrivning",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "nr.",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referensbeteckning"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1382,7 +1412,7 @@
         "uuid": "f53a240c-d64d-4060-a7d0-9f6c3cd342be"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U76-146",
     "variants": []
   },
   "sheets": [

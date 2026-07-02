@@ -1,6 +1,6 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "CherryMX") (type "Legacy") (uri "${KIPRJMOD}/symbols/CherryMX.lib") (options "") (descr ""))
+	(lib (name "CherryMX") (type "KiCad") (uri "${KIPRJMOD}/symbols/CherryMX.kicad_sym") (options "") (descr ""))
 	(lib (name "MCU_RaspberryPi_RP2040") (type "Legacy") (uri "${KIPRJMOD}/MCU_RaspberryPi_RP2040.lib") (options "") (descr ""))
 	(lib (name "PyKey60-cache") (type "Legacy") (uri "C:/Users/marku/GitHub/60rtho/PCB-design/PyKey60-cache.lib") (options "") (descr "Äldre projekts cachebibliotek"))
 )
