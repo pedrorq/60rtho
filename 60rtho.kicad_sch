@@ -5,12 +5,12 @@
 	(uuid "f53a240c-d64d-4060-a7d0-9f6c3cd342be")
 	(paper "User" 524.9926 350.012)
 	(title_block
-		(title "PyKey60 RP2040")
-		(date "2021-09-16")
+		(title "60rtho RP2040")
+		(date "2026-10-19")
 		(rev "1.0")
-		(company "Pierre Constantineau (JPConstantineau)")
+		(company "Pedro Quaresma (TheReflex)")
 		(comment 1 "License: CERN-OHL-W (CERN OHL v2)")
-		(comment 2 "Project: https://github.com/jpconstantineau/PyKey60")
+		(comment 2 "Project: https://github.com/pedrorq/60rtho")
 	)
 	(lib_symbols
 		(symbol "CherryMX:CherryMX"

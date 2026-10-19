@@ -1,1 +1,4 @@
 ﻿60rtho-backups
+*.lck
+.history/
+*.lck
