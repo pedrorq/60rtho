@@ -1258,6 +1258,7 @@
       "netlist": "PyKey60.net",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1412,7 +1413,7 @@
         "uuid": "f53a240c-d64d-4060-a7d0-9f6c3cd342be"
       }
     ],
-    "used_designators": "U76-146",
+    "used_designators": "ST1-6,U76-146",
     "variants": []
   },
   "sheets": [
