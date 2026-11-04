@@ -5441,6 +5441,12 @@
 		(uuid "3aec173d-af60-4d2e-ad60-b710007d4ed4")
 	)
 	(junction
+		(at 363.22 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b925114-aec8-400b-930d-f26d64e034e9")
+	)
+	(junction
 		(at 247.65 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5681,6 +5687,12 @@
 		(uuid "801dce1b-ad4b-475a-b8fd-24831fb8b0d6")
 	)
 	(junction
+		(at 462.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8040c988-865d-4bc6-bae7-1bdc5a2164f1")
+	)
+	(junction
 		(at 30.48 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5697,6 +5709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85bede8a-4074-45f6-9534-fea18d568347")
+	)
+	(junction
+		(at 463.55 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f44199-6a02-480b-b9d8-f4861a73fd9b")
 	)
 	(junction
 		(at 63.5 97.79)
@@ -5921,6 +5939,12 @@
 		(uuid "be9bac5a-68f3-4766-881f-4aba011c2a97")
 	)
 	(junction
+		(at 396.24 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed01488-c90d-4363-acfc-a1c0f0862456")
+	)
+	(junction
 		(at 62.23 288.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5937,6 +5961,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c74c5810-5588-4895-bda9-debbf7bd013c")
+	)
+	(junction
+		(at 431.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7edf69d-23bb-4122-964e-233cefd12706")
 	)
 	(junction
 		(at 354.33 124.46)
@@ -5979,6 +6009,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d412d899-db3e-4111-ac4d-18a7c1b5e6a6")
+	)
+	(junction
+		(at 203.2 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6eb36f9-a2f2-462b-ab00-d3dbf36db37d")
 	)
 	(junction
 		(at 255.27 58.42)
@@ -6051,6 +6087,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebdb6f35-8266-4383-be50-6eeaeada1446")
+	)
+	(junction
+		(at 331.47 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebfa4dec-e9a2-42c5-80af-af0c9b73f4aa")
 	)
 	(junction
 		(at 194.31 124.46)
@@ -6238,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 137.16) (xy 201.93 137.16)
+			(xy 156.21 139.7) (xy 158.75 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6315,6 +6357,16 @@
 			(type default)
 		)
 		(uuid "05ae8064-27e3-470f-9534-efa3b2150cb5")
+	)
+	(wire
+		(pts
+			(xy 331.47 115.57) (xy 331.47 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c8c21c-4e4b-4891-baf4-498917620f6e")
 	)
 	(wire
 		(pts
@@ -6538,16 +6590,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 137.16) (xy 322.58 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e662e4c-264a-4e24-924d-fe6d00e5d563")
-	)
-	(wire
-		(pts
 			(xy 147.32 222.25) (xy 149.86 222.25)
 		)
 		(stroke
@@ -6735,6 +6777,16 @@
 			(type default)
 		)
 		(uuid "14094a44-f577-4f39-88d9-f33435ad9ef4")
+	)
+	(wire
+		(pts
+			(xy 203.2 116.84) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bce507-1f97-43e1-a985-a3021b4b714f")
 	)
 	(wire
 		(pts
@@ -7138,13 +7190,23 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 137.16) (xy 281.94 137.16)
+			(xy 237.49 139.7) (xy 238.76 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26cce137-f6e9-4e46-819b-d7dbf314c36a")
+	)
+	(wire
+		(pts
+			(xy 203.2 116.84) (xy 204.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27258815-6822-4a48-af44-3e14673c3187")
 	)
 	(wire
 		(pts
@@ -7155,16 +7217,6 @@
 			(type default)
 		)
 		(uuid "2747f51c-fa32-4a84-82e8-d1dff2867027")
-	)
-	(wire
-		(pts
-			(xy 72.39 137.16) (xy 72.39 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274f44af-d7bf-4051-93cf-aa9f1a2b414b")
 	)
 	(wire
 		(pts
@@ -7195,16 +7247,6 @@
 			(type default)
 		)
 		(uuid "27ca5eee-7b11-4c6f-9ac0-152bfce6ecfe")
-	)
-	(wire
-		(pts
-			(xy 152.4 137.16) (xy 162.56 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29625a06-b721-4c52-b64d-4aaa94fe62a9")
 	)
 	(wire
 		(pts
@@ -7328,23 +7370,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 137.16) (xy 233.68 144.78)
+			(xy 190.5 139.7) (xy 190.5 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f577e5e-8381-4304-9d7a-832514ad30b0")
-	)
-	(wire
-		(pts
-			(xy 72.39 137.16) (xy 83.82 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f798f9b-95d2-4399-8695-525f82fc510b")
 	)
 	(wire
 		(pts
@@ -7448,6 +7480,16 @@
 	)
 	(wire
 		(pts
+			(xy 462.28 97.79) (xy 462.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337510ad-fab3-4bde-b405-0c97751cfdfa")
+	)
+	(wire
+		(pts
 			(xy 269.24 203.2) (xy 269.24 205.74)
 		)
 		(stroke
@@ -7525,16 +7567,6 @@
 			(type default)
 		)
 		(uuid "395729fb-5fb6-41ec-8144-656fa1af9077")
-	)
-	(wire
-		(pts
-			(xy 114.3 137.16) (xy 114.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6ace8c-64c5-4adb-bb6e-761440392bd7")
 	)
 	(wire
 		(pts
@@ -7675,16 +7707,6 @@
 			(type default)
 		)
 		(uuid "40ef4064-0ed6-400a-896a-53cf16fa813f")
-	)
-	(wire
-		(pts
-			(xy 391.16 137.16) (xy 402.59 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f35f8f-b160-4080-be35-10e1c82b23d5")
 	)
 	(wire
 		(pts
@@ -7878,7 +7900,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 97.79) (xy 463.55 97.79)
+			(xy 461.01 97.79) (xy 462.28 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7988,7 +8010,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 143.51) (xy 191.77 137.16)
+			(xy 148.59 146.05) (xy 148.59 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8048,7 +8070,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 137.16) (xy 219.71 137.16)
+			(xy 173.99 139.7) (xy 176.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8128,7 +8150,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 115.57) (xy 364.49 115.57)
+			(xy 361.95 115.57) (xy 363.22 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8155,16 +8177,6 @@
 			(type default)
 		)
 		(uuid "5a7dc978-998a-4286-ad99-38b2762c6573")
-	)
-	(wire
-		(pts
-			(xy 339.09 137.16) (xy 337.82 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af24141-2a41-4136-80e3-8dc43a84443e")
 	)
 	(wire
 		(pts
@@ -8255,6 +8267,16 @@
 			(type default)
 		)
 		(uuid "5c4431dc-3ad1-4f66-b265-5624f79506c7")
+	)
+	(wire
+		(pts
+			(xy 363.22 115.57) (xy 363.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdacad1-8efe-4077-80a6-9383a3521d60")
 	)
 	(wire
 		(pts
@@ -8368,6 +8390,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 60.96) (xy 431.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e5080f-488e-4e6f-b4c3-1232da8d471b")
+	)
+	(wire
+		(pts
 			(xy 31.75 49.53) (xy 27.94 49.53)
 		)
 		(stroke
@@ -8375,6 +8407,16 @@
 			(type default)
 		)
 		(uuid "637f1fe2-7d24-4021-abca-07c70cbb82f3")
+	)
+	(wire
+		(pts
+			(xy 463.55 43.18) (xy 463.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ac3a98-95cd-444b-ae75-8ade01c7a913")
 	)
 	(wire
 		(pts
@@ -8528,7 +8570,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 116.84) (xy 204.47 116.84)
+			(xy 201.93 116.84) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8658,7 +8700,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 137.16) (xy 298.45 137.16)
+			(xy 254 139.7) (xy 255.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8778,7 +8820,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 137.16) (xy 177.8 137.16)
+			(xy 473.71 134.62) (xy 472.44 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8838,6 +8880,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 60.96) (xy 433.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79294763-a921-40e1-b18f-a2cf6b81e8d4")
+	)
+	(wire
+		(pts
 			(xy 95.25 27.94) (xy 95.25 41.91)
 		)
 		(stroke
@@ -8868,7 +8920,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 137.16) (xy 259.08 137.16)
+			(xy 214.63 139.7) (xy 215.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8915,6 +8967,16 @@
 			(type default)
 		)
 		(uuid "7c8b1562-b724-4220-9357-75e76e21e132")
+	)
+	(wire
+		(pts
+			(xy 363.22 115.57) (xy 364.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dea26e9-6d62-4409-807c-9e03070a768a")
 	)
 	(wire
 		(pts
@@ -9088,6 +9150,16 @@
 	)
 	(wire
 		(pts
+			(xy 462.28 97.79) (xy 463.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bcb660-137b-444a-8cb7-faa46ab791bf")
+	)
+	(wire
+		(pts
 			(xy 127 97.79) (xy 127 76.2)
 		)
 		(stroke
@@ -9198,7 +9270,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 137.16) (xy 273.05 144.78)
+			(xy 229.87 139.7) (xy 229.87 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9228,13 +9300,13 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 137.16) (xy 391.16 144.78)
+			(xy 396.24 115.57) (xy 396.24 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ccab6b9-0a02-47c7-a486-f09f67a62ca1")
+		(uuid "8ba24657-b48d-4922-9119-9844ea67a9f4")
 	)
 	(wire
 		(pts
@@ -9268,7 +9340,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 137.16) (xy 139.7 137.16)
+			(xy 349.25 135.89) (xy 350.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9605,16 +9677,6 @@
 			(type default)
 		)
 		(uuid "9bf9b8fb-b02f-4634-a084-36e3707b4604")
-	)
-	(wire
-		(pts
-			(xy 377.19 137.16) (xy 379.73 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0c7d46-f29c-42e0-9a53-24d944e68d21")
 	)
 	(wire
 		(pts
@@ -9968,7 +10030,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 115.57) (xy 330.2 115.57)
+			(xy 332.74 115.57) (xy 331.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -10058,7 +10120,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 60.96) (xy 433.07 60.96)
+			(xy 430.53 60.96) (xy 431.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10178,16 +10240,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 137.16) (xy 29.21 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d5b647-0ba3-43f6-8810-037c7bd3137b")
-	)
-	(wire
-		(pts
 			(xy 266.7 41.91) (xy 269.24 41.91)
 		)
 		(stroke
@@ -10195,6 +10247,16 @@
 			(type default)
 		)
 		(uuid "b413399c-eb2e-4ad4-909a-067c517ed6f2")
+	)
+	(wire
+		(pts
+			(xy 396.24 115.57) (xy 397.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4332a8e-fdc3-4e02-be3c-4519626b8295")
 	)
 	(wire
 		(pts
@@ -10288,7 +10350,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 137.16) (xy 123.19 137.16)
+			(xy 332.74 135.89) (xy 334.01 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10568,7 +10630,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 137.16) (xy 242.57 137.16)
+			(xy 190.5 139.7) (xy 199.39 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10648,7 +10710,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 137.16) (xy 298.45 142.24)
+			(xy 255.27 139.7) (xy 255.27 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10898,7 +10960,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 142.24) (xy 300.99 142.24)
+			(xy 255.27 144.78) (xy 257.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11028,16 +11090,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 152.4 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92b464b-86e3-4f1e-a374-1cb9c1ba1003")
-	)
-	(wire
-		(pts
 			(xy 259.08 67.31) (xy 259.08 58.42)
 		)
 		(stroke
@@ -11085,16 +11137,6 @@
 			(type default)
 		)
 		(uuid "db1291ca-d8bb-4eba-b4cc-9f4d3abc963a")
-	)
-	(wire
-		(pts
-			(xy 421.64 137.16) (xy 417.83 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbcbc421-bfc7-40b9-bba4-71402fe06459")
 	)
 	(wire
 		(pts
@@ -11258,7 +11300,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 115.57) (xy 397.51 115.57)
+			(xy 394.97 115.57) (xy 396.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11335,16 +11377,6 @@
 			(type default)
 		)
 		(uuid "e9e28209-4668-4332-bba2-06fd8809f6e3")
-	)
-	(wire
-		(pts
-			(xy 353.06 137.16) (xy 353.06 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea15c8f1-ec1e-4fff-a1bf-38c3b8af9983")
 	)
 	(wire
 		(pts
@@ -11478,13 +11510,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 137.16) (xy 60.96 137.16)
+			(xy 463.55 27.94) (xy 467.36 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0e3b5e2-604d-46d7-96fa-d9cd5d7de91b")
+		(uuid "f10bea76-90b2-4f9a-b8fd-bf5dd725eba1")
+	)
+	(wire
+		(pts
+			(xy 204.47 120.65) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f145b992-393e-45fc-afe7-cba665412ee8")
 	)
 	(wire
 		(pts
@@ -11595,6 +11637,16 @@
 			(type default)
 		)
 		(uuid "f527728d-42a2-41d8-ba7d-44e1b70f5df2")
+	)
+	(wire
+		(pts
+			(xy 331.47 115.57) (xy 330.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5963216-7d3b-4f51-bc0c-bbe298d9e5a0")
 	)
 	(wire
 		(pts
@@ -11738,16 +11790,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 137.16) (xy 361.95 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc9fa31-9b5f-4d0a-aaf8-661bf45d54cd")
-	)
-	(wire
-		(pts
 			(xy 242.57 217.17) (xy 240.03 217.17)
 		)
 		(stroke
@@ -11788,16 +11830,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 137.16) (xy 101.6 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0a9edd-4fcb-420c-b289-e0aabef76c60")
-	)
-	(wire
-		(pts
 			(xy 218.44 97.79) (xy 223.52 97.79)
 		)
 		(stroke
@@ -11815,16 +11847,6 @@
 			(type default)
 		)
 		(uuid "ff84da37-07fe-4ed5-a4f5-4e41093a4ff2")
-	)
-	(wire
-		(pts
-			(xy 29.21 137.16) (xy 43.18 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbb4a38-8385-4d12-b1a1-3fdf8e959b86")
 	)
 	(label "QSPISD0"
 		(at 179.07 232.41 0)
@@ -12302,7 +12324,7 @@
 	)
 	(global_label "COL13"
 		(shape input)
-		(at 139.7 137.16 0)
+		(at 350.52 135.89 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12311,7 +12333,7 @@
 		)
 		(uuid "084d64aa-1c91-4527-b8c2-fd52a4c3f8f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 137.16 0)
+			(at 350.52 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12344,9 +12366,9 @@
 			)
 		)
 	)
-	(global_label "ROW5"
+	(global_label "RIGHT"
 		(shape input)
-		(at 391.16 144.78 180)
+		(at 369.57 152.4 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12355,7 +12377,7 @@
 		)
 		(uuid "0ba91b55-24d0-41e4-994d-3a3955b754ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 391.16 144.78 0)
+			(at 369.57 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12498,6 +12520,28 @@
 			)
 		)
 	)
+	(global_label "RSHIFT"
+		(shape input)
+		(at 457.2 134.62 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "24a08399-ca23-4123-81e6-8679d2918c1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 457.2 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "COL12"
 		(shape input)
 		(at 420.37 27.94 0)
@@ -12510,6 +12554,28 @@
 		(uuid "25ecaa6a-4ef8-45b5-a71c-3235f9a26e75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 420.37 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SPACE"
+		(shape input)
+		(at 190.5 147.32 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "27078464-ce0b-4d6a-8fbe-65de789c7f6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12542,9 +12608,9 @@
 			)
 		)
 	)
-	(global_label "ROW5"
+	(global_label "LEFT"
 		(shape input)
-		(at 311.15 137.16 180)
+		(at 298.45 152.4 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12553,7 +12619,7 @@
 		)
 		(uuid "2e6fd3eb-a3aa-4e43-af3d-49a026f51793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.15 137.16 0)
+			(at 298.45 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12676,7 +12742,7 @@
 	)
 	(global_label "COL14"
 		(shape input)
-		(at 60.96 137.16 0)
+		(at 455.93 153.67 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12685,7 +12751,7 @@
 		)
 		(uuid "3f0ae629-813a-49a5-8cfb-3486c9ba983c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 137.16 0)
+			(at 455.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12742,7 +12808,7 @@
 	)
 	(global_label "COL11"
 		(shape input)
-		(at 379.73 137.16 0)
+		(at 349.25 152.4 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12751,7 +12817,7 @@
 		)
 		(uuid "4526f0c1-e57a-4ad3-a7e5-62eb0b2201e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.73 137.16 0)
+			(at 349.25 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,7 +12874,7 @@
 	)
 	(global_label "COL14"
 		(shape input)
-		(at 179.07 137.16 0)
+		(at 473.71 134.62 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12817,7 +12883,29 @@
 		)
 		(uuid "4daa4c40-42e1-46ac-a3fa-4a5b154c2121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 137.16 0)
+			(at 473.71 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SLASH"
+		(shape input)
+		(at 481.33 153.67 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "595b3d6a-cad8-4f66-a03f-d9ceaeb0d194")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 481.33 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12918,7 +13006,7 @@
 	)
 	(global_label "COL12"
 		(shape input)
-		(at 421.64 137.16 0)
+		(at 384.81 152.4 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12927,7 +13015,7 @@
 		)
 		(uuid "638c265f-fcac-4721-a5db-53f32e452e82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 421.64 137.16 0)
+			(at 384.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +13028,7 @@
 	)
 	(global_label "ROW5"
 		(shape input)
-		(at 273.05 144.78 180)
+		(at 229.87 147.32 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12949,7 +13037,7 @@
 		)
 		(uuid "707171ca-8e8d-4918-80cb-348413855bf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 144.78 0)
+			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,7 +13050,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 114.3 144.78 180)
+		(at 325.12 135.89 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -12971,7 +13059,29 @@
 		)
 		(uuid "7b36817d-7827-4e36-8037-e9fe9e3739ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 144.78 0)
+			(at 325.12 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SLASH"
+		(shape input)
+		(at 431.8 63.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "89d426fb-0a35-45ef-901f-f71aa66234b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 431.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13006,7 +13116,7 @@
 	)
 	(global_label "COL13"
 		(shape input)
-		(at 101.6 137.16 0)
+		(at 496.57 153.67 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13015,7 +13125,7 @@
 		)
 		(uuid "8aa879ae-a183-40b1-8c96-2790baf8626b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 137.16 0)
+			(at 496.57 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13026,9 +13136,9 @@
 			)
 		)
 	)
-	(global_label "ROW5"
+	(global_label "DOWN"
 		(shape input)
-		(at 353.06 144.78 180)
+		(at 334.01 152.4 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13037,7 +13147,29 @@
 		)
 		(uuid "8ad5c972-6a66-4a93-9238-27301536f90b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.06 144.78 0)
+			(at 334.01 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DOWN"
+		(shape input)
+		(at 363.22 120.65 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "8e6cd6cb-7e88-4413-b163-9f1508a34639")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13114,6 +13246,28 @@
 			)
 		)
 	)
+	(global_label "SPACE"
+		(shape input)
+		(at 204.47 120.65 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "92ee6da0-bf94-4b53-8ba7-313e33ffeb67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "Data+"
 		(shape input)
 		(at 95.25 228.6 0)
@@ -13126,6 +13280,28 @@
 		(uuid "93e2760c-0685-4c62-8ada-9c4a189bab04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.25 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "BCKSP"
+		(shape input)
+		(at 467.36 27.94 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "96de3ee5-e79c-48b6-a63b-5032eaa77b6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 467.36 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13180,50 +13356,6 @@
 			)
 		)
 	)
-	(global_label "ROW1"
-		(shape input)
-		(at 29.21 144.78 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "97b404fe-83c0-49e3-993c-f553e1e02071")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "ROW4"
-		(shape input)
-		(at 152.4 144.78 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "9a3f0f98-a1e8-4bda-ab12-74474f063642")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "COL3"
 		(shape input)
 		(at 129.54 27.94 0)
@@ -13248,7 +13380,7 @@
 	)
 	(global_label "COL6"
 		(shape input)
-		(at 259.08 137.16 0)
+		(at 215.9 139.7 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13257,7 +13389,7 @@
 		)
 		(uuid "9eebb569-74e0-476e-ad2f-040bbc4237d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 137.16 0)
+			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13422,6 +13554,28 @@
 			)
 		)
 	)
+	(global_label "BCKSP"
+		(shape input)
+		(at 440.69 153.67 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "c137a387-3b5c-4054-a1d2-aa3dbcbe4fe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.69 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "COL7"
 		(shape input)
 		(at 256.54 27.94 0)
@@ -13444,31 +13598,9 @@
 			)
 		)
 	)
-	(global_label "ROW5"
-		(shape input)
-		(at 233.68 144.78 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "cafe619b-1630-4ff3-b0c3-c37e3a2856eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "COL7"
 		(shape input)
-		(at 300.99 142.24 0)
+		(at 257.81 144.78 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13477,7 +13609,7 @@
 		)
 		(uuid "d3d862be-d07c-4a6a-a9cc-2156cf46db1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.99 142.24 0)
+			(at 257.81 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13644,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 219.71 137.16 0)
+		(at 176.53 139.7 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13521,7 +13653,7 @@
 		)
 		(uuid "d7fe190b-ddf5-4b6f-b84f-d80a6912d57c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 137.16 0)
+			(at 176.53 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13576,9 +13708,31 @@
 			)
 		)
 	)
+	(global_label "RIGHT"
+		(shape input)
+		(at 396.24 120.65 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "e1f8590f-331b-49d6-96e7-f381bce23899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 396.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "ROW5"
 		(shape input)
-		(at 191.77 143.51 180)
+		(at 148.59 146.05 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13587,7 +13741,7 @@
 		)
 		(uuid "e9eb45bd-a10a-4063-b462-c111e9e55cdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 143.51 0)
+			(at 148.59 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13610,6 +13764,50 @@
 		(uuid "ec76da74-4f08-461f-b738-f71c1b98ae75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.25 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RSHIFT"
+		(shape input)
+		(at 462.28 101.6 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "edd1b49c-b1d0-461a-bad5-f3df9485a592")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 462.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "LEFT"
+		(shape input)
+		(at 331.47 119.38 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f13c6690-c015-41fa-9066-0bb675a5b5f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.47 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13688,7 +13886,7 @@
 	)
 	(global_label "COL10"
 		(shape input)
-		(at 339.09 137.16 0)
+		(at 313.69 152.4 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13697,29 +13895,7 @@
 		)
 		(uuid "f8626a48-91b9-4aeb-846e-41d3bb306208")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.09 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape input)
-		(at 72.39 144.78 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "ff730578-0e66-4b9e-881c-e3f9992f84ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 144.78 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15761,6 +15937,7 @@
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
 		(at 471.17 45.72 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28190,7 +28367,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 373.38 327.66 0)
+		(at 388.62 318.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28200,7 +28377,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000067c2f3bf")
 		(property "Reference" "H5"
-			(at 375.92 326.4916 0)
+			(at 391.16 317.6016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28211,7 +28388,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 375.92 328.803 0)
+			(at 391.16 319.913 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28222,7 +28399,7 @@
 			)
 		)
 		(property "Footprint" "lib.pretty:PKRHSL"
-			(at 373.38 327.66 0)
+			(at 388.62 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28233,7 +28410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 373.38 327.66 0)
+			(at 388.62 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28244,7 +28421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.38 327.66 0)
+			(at 388.62 318.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28264,7 +28441,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 331.47 327.66 0)
+		(at 367.03 328.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28274,7 +28451,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000067d9603f")
 		(property "Reference" "H3"
-			(at 334.01 326.4916 0)
+			(at 369.57 327.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28285,7 +28462,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 334.01 328.803 0)
+			(at 369.57 330.073 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28296,7 +28473,7 @@
 			)
 		)
 		(property "Footprint" "lib.pretty:PKRHSL"
-			(at 331.47 327.66 0)
+			(at 367.03 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28307,7 +28484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.47 327.66 0)
+			(at 367.03 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28318,7 +28495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 327.66 0)
+			(at 367.03 328.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28338,7 +28515,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 336.55 318.77 0)
+		(at 367.03 318.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28348,7 +28525,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000067d966b5")
 		(property "Reference" "H1"
-			(at 339.09 317.6016 0)
+			(at 369.57 317.6016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28359,7 +28536,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 339.09 319.913 0)
+			(at 369.57 319.913 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28370,7 +28547,7 @@
 			)
 		)
 		(property "Footprint" "lib.pretty:PKRHC"
-			(at 336.55 318.77 0)
+			(at 367.03 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28381,7 +28558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 318.77 0)
+			(at 367.03 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28392,7 +28569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 318.77 0)
+			(at 367.03 318.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28412,7 +28589,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 347.98 327.66 0)
+		(at 367.03 334.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28422,7 +28599,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000067d96a66")
 		(property "Reference" "H4"
-			(at 350.52 326.4916 0)
+			(at 369.57 332.8416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28433,7 +28610,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 350.52 328.803 0)
+			(at 369.57 335.153 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28444,7 +28621,7 @@
 			)
 		)
 		(property "Footprint" "lib.pretty:PKRH"
-			(at 347.98 327.66 0)
+			(at 367.03 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28455,7 +28632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 327.66 0)
+			(at 367.03 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28466,7 +28643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 327.66 0)
+			(at 367.03 334.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28486,7 +28663,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 359.41 332.74 0)
+		(at 388.62 323.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28496,7 +28673,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000067d97006")
 		(property "Reference" "H6"
-			(at 361.95 331.5716 0)
+			(at 391.16 322.6816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28507,7 +28684,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 361.95 333.883 0)
+			(at 391.16 324.993 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28518,7 +28695,7 @@
 			)
 		)
 		(property "Footprint" "lib.pretty:PKRH"
-			(at 359.41 332.74 0)
+			(at 388.62 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28529,7 +28706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 359.41 332.74 0)
+			(at 388.62 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28540,7 +28717,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 332.74 0)
+			(at 388.62 323.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28560,81 +28737,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 365.76 318.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000067d97162")
-		(property "Reference" "H2"
-			(at 368.3 317.6016 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 368.3 319.913 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib.pretty:PKRH"
-			(at 365.76 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 365.76 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 365.76 318.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "60rtho"
-				(path "/f53a240c-d64d-4060-a7d0-9f6c3cd342be"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 382.27 332.74 0)
+		(at 388.62 328.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28644,7 +28747,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000680df85e")
 		(property "Reference" "H7"
-			(at 384.81 331.5716 0)
+			(at 391.16 327.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28655,7 +28758,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 384.81 333.883 0)
+			(at 391.16 330.073 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28666,7 +28769,7 @@
 			)
 		)
 		(property "Footprint" "lib.pretty:KB_BlueMicro"
-			(at 382.27 332.74 0)
+			(at 388.62 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28677,7 +28780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 332.74 0)
+			(at 388.62 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28688,7 +28791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 382.27 332.74 0)
+			(at 388.62 328.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29759,7 +29862,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Stabilizer_6.25u_MX")
-		(at 374.65 274.32 0)
+		(at 331.47 330.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29770,7 +29873,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b50d756-f84d-404d-be11-f38a5cb8bbbc")
 		(property "Reference" "ST6"
-			(at 379.73 273.0499 0)
+			(at 336.55 328.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29781,7 +29884,7 @@
 			)
 		)
 		(property "Value" "Stabilizer_2u_MX"
-			(at 379.73 275.5899 0)
+			(at 336.55 331.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29792,7 +29895,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_6.25u"
-			(at 374.65 274.32 0)
+			(at 331.47 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29803,7 +29906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 274.32 0)
+			(at 331.47 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29814,7 +29917,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 274.32 0)
+			(at 331.47 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29911,7 +30014,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Stabilizer_2u_MX")
-		(at 337.82 287.02 0)
+		(at 331.47 309.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29922,7 +30025,7 @@
 		(fields_autoplaced yes)
 		(uuid "309ed049-d240-4e57-aa9d-0273117aad2f")
 		(property "Reference" "ST4"
-			(at 342.9 285.7499 0)
+			(at 336.55 308.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29933,7 +30036,7 @@
 			)
 		)
 		(property "Value" "Stabilizer_2u_MX"
-			(at 342.9 288.2899 0)
+			(at 336.55 311.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29944,7 +30047,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 337.82 287.02 0)
+			(at 331.47 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29955,7 +30058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 287.02 0)
+			(at 331.47 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29966,7 +30069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 287.02 0)
+			(at 331.47 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30074,7 +30177,7 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 250.19 139.7 0)
+		(at 207.01 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30084,7 +30187,7 @@
 		(dnp no)
 		(uuid "359f3ac9-dccc-4c79-a120-9f7181193968")
 		(property "Reference" "U71"
-			(at 250.19 129.921 0)
+			(at 207.01 132.461 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30094,7 +30197,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 250.19 132.2324 0)
+			(at 207.01 134.7724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30104,7 +30207,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 250.19 142.24 0)
+			(at 207.01 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30115,7 +30218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 142.24 0)
+			(at 207.01 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30126,7 +30229,7 @@
 			)
 		)
 		(property "Description" "SpaceM_1.25u"
-			(at 250.19 139.7 0)
+			(at 207.01 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30623,7 +30726,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Stabilizer_2u_MX")
-		(at 374.65 288.29 0)
+		(at 298.45 330.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30634,7 +30737,7 @@
 		(fields_autoplaced yes)
 		(uuid "58a4d7c9-8752-4116-bc7b-3bb1ac909b0a")
 		(property "Reference" "ST3"
-			(at 379.73 287.0199 0)
+			(at 303.53 328.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30645,7 +30748,7 @@
 			)
 		)
 		(property "Value" "Stabilizer_2u_MX"
-			(at 379.73 289.5599 0)
+			(at 303.53 331.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30656,7 +30759,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 374.65 288.29 0)
+			(at 298.45 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30667,7 +30770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 288.29 0)
+			(at 298.45 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30678,7 +30781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 288.29 0)
+			(at 298.45 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31253,7 +31356,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Stabilizer_2u_MX")
-		(at 339.09 299.72 0)
+		(at 298.45 309.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31264,7 +31367,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cea312a-54d6-4b9f-be09-02ba61e9cc7e")
 		(property "Reference" "ST1"
-			(at 344.17 298.4499 0)
+			(at 303.53 308.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31275,7 +31378,7 @@
 			)
 		)
 		(property "Value" "Stabilizer_2u_MX"
-			(at 344.17 300.9899 0)
+			(at 303.53 311.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31286,7 +31389,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 339.09 299.72 0)
+			(at 298.45 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31297,7 +31400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 299.72 0)
+			(at 298.45 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31308,7 +31411,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 339.09 299.72 0)
+			(at 298.45 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31329,7 +31432,7 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 289.56 139.7 0)
+		(at 246.38 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31339,7 +31442,7 @@
 		(dnp no)
 		(uuid "6f4b110b-ead0-4d11-9add-ca1acb05c85c")
 		(property "Reference" "U72"
-			(at 289.56 129.921 0)
+			(at 246.38 132.461 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31349,7 +31452,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 289.56 132.2324 0)
+			(at 246.38 134.7724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31359,7 +31462,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 289.56 142.24 0)
+			(at 246.38 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31370,7 +31473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 142.24 0)
+			(at 246.38 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31381,7 +31484,7 @@
 			)
 		)
 		(property "Description" "SpaceR_2.75u"
-			(at 289.56 139.7 0)
+			(at 246.38 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31407,7 +31510,7 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 91.44 139.7 0)
+		(at 488.95 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31417,7 +31520,7 @@
 		(dnp no)
 		(uuid "6fcecfc2-817f-4ce3-a25f-b91326f9ccdb")
 		(property "Reference" "U67"
-			(at 91.44 129.921 0)
+			(at 488.95 146.431 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31427,7 +31530,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 91.44 132.2324 0)
+			(at 488.95 148.7424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31437,7 +31540,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 91.44 142.24 0)
+			(at 488.95 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31448,7 +31551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 142.24 0)
+			(at 488.95 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31459,7 +31562,7 @@
 			)
 		)
 		(property "Description" "Bslash_1.5u"
-			(at 91.44 139.7 0)
+			(at 488.95 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31485,7 +31588,8 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 410.21 139.7 0)
+		(at 377.19 154.94 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31495,7 +31599,7 @@
 		(dnp no)
 		(uuid "7404aff2-e727-437f-b901-36de04d097ec")
 		(property "Reference" "U75"
-			(at 410.21 129.921 0)
+			(at 377.19 145.161 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31505,7 +31609,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 410.21 132.2324 0)
+			(at 377.19 147.4724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31515,7 +31619,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 410.21 142.24 0)
+			(at 377.19 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31526,7 +31630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 142.24 0)
+			(at 377.19 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31537,7 +31641,7 @@
 			)
 		)
 		(property "Description" "Right"
-			(at 410.21 139.7 0)
+			(at 377.19 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31563,7 +31667,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Stabilizer_2u_MX")
-		(at 375.92 300.99 0)
+		(at 298.45 320.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31574,7 +31678,7 @@
 		(fields_autoplaced yes)
 		(uuid "7648feab-d5aa-453d-a74c-a13f56c05e45")
 		(property "Reference" "ST2"
-			(at 381 299.7199 0)
+			(at 303.53 318.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31585,7 +31689,7 @@
 			)
 		)
 		(property "Value" "Stabilizer_2u_MX"
-			(at 381 302.2599 0)
+			(at 303.53 321.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31596,7 +31700,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 375.92 300.99 0)
+			(at 298.45 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31607,7 +31711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 300.99 0)
+			(at 298.45 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31618,7 +31722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 300.99 0)
+			(at 298.45 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31802,7 +31906,8 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 369.57 139.7 0)
+		(at 341.63 154.94 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31812,7 +31917,7 @@
 		(dnp no)
 		(uuid "7c51f5a9-4935-43ef-98c3-59608fb411b2")
 		(property "Reference" "U74"
-			(at 369.57 129.921 0)
+			(at 341.63 145.161 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31822,7 +31927,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 369.57 132.2324 0)
+			(at 341.63 147.4724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31832,7 +31937,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 369.57 142.24 0)
+			(at 341.63 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31843,7 +31948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 142.24 0)
+			(at 341.63 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31854,7 +31959,7 @@
 			)
 		)
 		(property "Description" "Down"
-			(at 369.57 139.7 0)
+			(at 341.63 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31956,7 +32061,7 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 209.55 139.7 0)
+		(at 166.37 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31966,7 +32071,7 @@
 		(dnp no)
 		(uuid "7e588ecb-be9c-498a-9962-c18a0c1c040c")
 		(property "Reference" "U70"
-			(at 209.55 129.921 0)
+			(at 166.37 132.461 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31976,7 +32081,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 209.55 132.2324 0)
+			(at 166.37 134.7724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31986,7 +32091,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 209.55 142.24 0)
+			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31997,7 +32102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 142.24 0)
+			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32008,7 +32113,7 @@
 			)
 		)
 		(property "Description" "SpaceL_2.25u"
-			(at 209.55 139.7 0)
+			(at 166.37 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32034,7 +32139,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 195.58 137.16 0)
+		(at 152.4 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32044,7 +32149,7 @@
 		(dnp no)
 		(uuid "804dd7ac-656b-4adf-95a9-99abdbdaf2bb")
 		(property "Reference" "D68"
-			(at 195.58 131.6482 0)
+			(at 152.4 134.1882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32054,7 +32159,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 195.58 133.9596 0)
+			(at 152.4 136.4996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32064,7 +32169,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 195.58 137.16 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32075,7 +32180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 137.16 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32086,7 +32191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 137.16 0)
+			(at 152.4 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32279,7 +32384,8 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 170.18 139.7 0)
+		(at 464.82 137.16 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32289,7 +32395,7 @@
 		(dnp no)
 		(uuid "97f89bb5-1bcc-4d7f-861e-168757fc122c")
 		(property "Reference" "U69"
-			(at 170.18 129.921 0)
+			(at 464.82 127.381 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32299,7 +32405,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 170.18 132.2324 0)
+			(at 464.82 129.6924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32309,7 +32415,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 170.18 142.24 0)
+			(at 464.82 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32320,7 +32426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 142.24 0)
+			(at 464.82 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32331,7 +32437,7 @@
 			)
 		)
 		(property "Description" "RShift_2.25u"
-			(at 170.18 139.7 0)
+			(at 464.82 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32520,7 +32626,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 118.11 137.16 0)
+		(at 328.93 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32530,7 +32636,7 @@
 		(dnp no)
 		(uuid "a6256a54-7d04-47db-99d1-9d857f621dcc")
 		(property "Reference" "D66"
-			(at 118.11 131.6482 0)
+			(at 328.93 130.3782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32540,7 +32646,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 118.11 133.9596 0)
+			(at 328.93 132.6896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32550,7 +32656,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 118.11 137.16 0)
+			(at 328.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32561,7 +32667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 137.16 0)
+			(at 328.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32572,7 +32678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 137.16 0)
+			(at 328.93 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32750,7 +32856,7 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 50.8 139.7 0)
+		(at 448.31 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32760,7 +32866,7 @@
 		(dnp no)
 		(uuid "ada9d18e-da59-4e1d-9a20-ef2b1339cbcd")
 		(property "Reference" "U66"
-			(at 50.8 129.921 0)
+			(at 448.31 146.431 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32770,7 +32876,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 50.8 132.2324 0)
+			(at 448.31 148.7424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32780,7 +32886,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 50.8 142.24 0)
+			(at 448.31 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32791,7 +32897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 142.24 0)
+			(at 448.31 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32802,7 +32908,7 @@
 			)
 		)
 		(property "Description" "Bksp_1u"
-			(at 50.8 139.7 0)
+			(at 448.31 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32828,7 +32934,7 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 130.81 139.7 0)
+		(at 341.63 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32838,7 +32944,7 @@
 		(dnp no)
 		(uuid "ae7ee92f-59fd-4ef2-aabe-fed846e3d787")
 		(property "Reference" "U68"
-			(at 130.81 129.921 0)
+			(at 341.63 128.651 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32848,7 +32954,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 130.81 132.2324 0)
+			(at 341.63 130.9624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32858,7 +32964,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 130.81 142.24 0)
+			(at 341.63 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32869,7 +32975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 142.24 0)
+			(at 341.63 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32880,7 +32986,7 @@
 			)
 		)
 		(property "Description" "Up"
-			(at 130.81 139.7 0)
+			(at 341.63 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33634,7 +33740,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 276.86 137.16 0)
+		(at 233.68 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33644,7 +33750,7 @@
 		(dnp no)
 		(uuid "d2a84954-5caf-4fd6-9d29-4f9c8c001118")
 		(property "Reference" "D70"
-			(at 276.86 131.6482 0)
+			(at 233.68 134.1882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33654,7 +33760,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 276.86 133.9596 0)
+			(at 233.68 136.4996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33664,7 +33770,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 276.86 137.16 0)
+			(at 233.68 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33675,7 +33781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 137.16 0)
+			(at 233.68 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33686,7 +33792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 137.16 0)
+			(at 233.68 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33940,7 +34046,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Stabilizer_2u_MX")
-		(at 336.55 273.05 0)
+		(at 331.47 320.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33951,7 +34057,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea724e37-4f7d-4ce9-8e8c-ec81ee1ec722")
 		(property "Reference" "ST5"
-			(at 341.63 271.7799 0)
+			(at 336.55 318.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33962,7 +34068,7 @@
 			)
 		)
 		(property "Value" "Stabilizer_2u_MX"
-			(at 341.63 274.3199 0)
+			(at 336.55 321.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33973,7 +34079,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 336.55 273.05 0)
+			(at 331.47 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33984,7 +34090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 273.05 0)
+			(at 331.47 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33995,7 +34101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 273.05 0)
+			(at 331.47 320.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34183,7 +34289,8 @@
 	)
 	(symbol
 		(lib_id "CherryMX:CherryMX_LTST-A683CEGBW")
-		(at 330.2 139.7 0)
+		(at 306.07 154.94 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34193,7 +34300,7 @@
 		(dnp no)
 		(uuid "ee12b6cc-c918-4152-87b9-f9d3ead18310")
 		(property "Reference" "U73"
-			(at 330.2 129.921 0)
+			(at 306.07 145.161 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34203,7 +34310,7 @@
 			)
 		)
 		(property "Value" "CherryMX_LTST-A683CEGBW"
-			(at 330.2 132.2324 0)
+			(at 306.07 147.4724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34213,7 +34320,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_reinforced"
-			(at 330.2 142.24 0)
+			(at 306.07 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34224,7 +34331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 142.24 0)
+			(at 306.07 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34235,7 +34342,7 @@
 			)
 		)
 		(property "Description" "Left"
-			(at 330.2 139.7 0)
+			(at 306.07 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
