@@ -95274,14 +95274,6 @@
 		(uuid "31782448-ce1a-4adc-b27c-66f37f8a08df")
 	)
 	(via
-		(at 126.81 82.2)
-		(size 0.6096)
-		(drill 0.3048)
-		(layers "F.Cu" "B.Cu")
-		(net "ROW1")
-		(uuid "48abd98e-32e3-4063-931a-8c56bc9a56da")
-	)
-	(via
 		(at 317.31 82.08)
 		(size 0.6096)
 		(drill 0.3048)
@@ -95392,6 +95384,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "ROW2")
 		(uuid "6f3d0d80-7c6f-46e1-81c7-6d167ed58e77")
+	)
+	(via
+		(at 164.91 101.25)
+		(size 0.6096)
+		(drill 0.3048)
+		(layers "F.Cu" "B.Cu")
+		(net "ROW2")
+		(uuid "85724e30-dc18-45cf-9dce-a8c278f1a3c5")
 	)
 	(via
 		(at 279.21 101.12)
