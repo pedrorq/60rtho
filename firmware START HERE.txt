@@ -1,0 +1,5 @@
+We’re making firmware for our custom keyboard, 60rtho. The PCB is in this folder, and FIRMWARE.md has all the board facts (pins, matrix, layout options, underglow, bootloader). Read FIRMWARE.md and CLAUDE.md first.
+
+Goal: QMK firmware for this board (tell me if you think Vial on top is worth it), in a firmware/ folder in this repo. I’m on Windows and have never built QMK, so walk me through installing the tools step by step.
+
+Before writing the keymap, ask me which layout options I want and confirm the key names in FIRMWARE.md with me. The board isn’t manufactured yet, so for now the goal is firmware that compiles to a .uf2 file.
